@@ -1,0 +1,72 @@
+{
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'UDEV Gothic','Droid Sans Mono', 'monospace', monospace",
+  "editor.detectIndentation": false,
+  "debug.inlineValues": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrap": "bounded",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.css": "css"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true,
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.colorDecorators": true,
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.colorDecorators": true,
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "debug.inlineValues": true
+}
+
